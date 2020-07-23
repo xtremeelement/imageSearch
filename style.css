@@ -1,0 +1,56 @@
+.bgImage{
+    height: 500px;
+    background-image: url("https://images.pexels.com/photos/1484759/pexels-photo-1484759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-field{
+    background-color: rgba(255, 255, 255, .5);
+    justify-content: center;
+    justify-items: center;
+    vertical-align: middle;
+    padding-top: 50%;
+}
+.searchField{
+    justify-content: center;
+    justify-items: center;
+    vertical-align: middle;
+}
+.zoom{
+    transition: all 1s;
+    
+}
+
+  /* label color */
+label {
+    color: black;
+  }
+  /* label focus color */
+input[type=text]:focus + label {
+    color: #000;
+  }
+  /* label underline focus color */
+input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+
+  .displayImage{
+      width: 100%;
+      margin-bottom: 15px;
+      transition: transform .2s;
+  }
+
+  .zoom:hover{
+      transform: scale(1.1);
+  }
+
+  footer{
+      position: fixed;
+      bottom: 0;
+      text-align: center;
+      margin: 0 auto;
+  }
