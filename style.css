@@ -21,7 +21,7 @@
 }
 .zoom{
     transition: all 1s;
-    
+    overflow: hidden;
     
 }
 .images{
